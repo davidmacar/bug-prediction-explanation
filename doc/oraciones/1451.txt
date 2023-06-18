@@ -1,0 +1,11 @@
+[Consulta]:
+Un modelo de predicción entrenado con un gran número de características clasifica la entrada (un método java) en “Buggy” y “Not buggy” indicando si contiene bugs o no.
+La predicción ha sido: |Clasficación|Abreviatura característica 1|Significado característica 1|Valor característica 1|Rango valor característica 1|Abreviatura característica 2|Significado característica 2|Valor característica 2|Rango valor característica 2|Abreviatura característica 3|Significado característica 3|Valor característica 3|Rango valor característica 3|
+|Not buggy|HCPL|Longitud de programa calculada de Halstead.|972193|Muy alto|HPV|Vocabulario de programa de Halstead.|26|Muy bajo|NOI|Número de invocaciones salientes.|5|Muy bajo|
+Usando el significado de cada una de las características, sus rangos y el valor actual tienes que extraer una explicación del por qué el método analizado por el modelo ha sido clasificado de esa manera. Usa un máximo de 100 palabras.
+
+[Respuesta]:
+El método analizado ha sido clasificado como "Not buggy" debido a las siguientes características: 
+- HCPL (Longitud de programa calculada de Halstead) tiene un valor de 972193, lo cual indica un programa muy alto y complejo.
+- HPV (Vocabulario de programa de Halstead) tiene un valor de 26, lo cual indica que el programa tiene un vocabulario muy limitado.
+- NOI (Número de invocaciones salientes) tiene un valor de 5, lo cual indica que el programa tiene muy pocas invocaciones salientes. Estas características sugieren que el método es complejo pero bien estructurado y no contiene bugs.

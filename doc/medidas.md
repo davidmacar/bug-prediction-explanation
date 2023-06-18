@@ -1,4 +1,4 @@
-| **Abreviacion** | **Significado** | **Explicación** |
+| Abreviacion | Significado | Explicación |
 |:---------------:|:---------------:|:---------------:|
 |AD|Documentación de API.| Mide la cantidad de documentación disponible para el API.|
 |CBO|Acoplamiento Entre Clases de Objetos.| Mide la cantidad de clases diferentes que son referenciadas por una clase.|
@@ -61,9 +61,9 @@
 |TLLOC|Total de líneas de código lógicas.| Cantidad total de líneas de código fuente que contienen al menos una instrucción ejecutable.|
 |TLOC|Total de líneas de código.| Cantidad total de líneas en el código fuente, incluyendo líneas en blanco y comentarios.|
 |TNA|Número Total de Atributos.| Mide la cantidad total de atributos que tiene una clase, incluyendo los privados.|
-|TNG|Número Total de Métodos Get.| Mide la cantidad total de métodos get que tiene una clase, incluyendo los privados.|
+|TNG|Número Total de Métodos Getter.| Mide la cantidad total de métodos getter que tiene una clase, incluyendo los privados.|
 |TNLA|Número Total de Atributos Locales.| Mide la cantidad total de atributos definidos dentro de métodos, incluyendo los privados.|
-|TNLG|Número Total de Métodos Get Locales.| Mide la cantidad total de métodos get definidos dentro de métodos, incluyendo los privados.|
+|TNLG|Número Total de Métodos Getter Locales.| Mide la cantidad total de métodos getter definidos dentro de métodos, incluyendo los privados.|
 |TNLM|Número Total de Métodos Locales.| Mide la cantidad total de métodos definidos dentro de métodos, incluyendo los privados.|
 |TNLPA|Número Total de Atributos Públicos Locales.| Mide la cantidad total de atributos públicos definidos dentro de métodos.|
 |TNLPM|Número Total de Métodos Públicos Locales.| Mide la cantidad total de métodos públicos definidos dentro de métodos.|
@@ -74,3 +74,39 @@
 |TNPM|Número Total de Métodos Públicos.| Mide la cantidad total de métodos públicos que tiene una clase, incluyendo los heredados.|
 |TNS|Número Total de Métodos Set.| Mide la cantidad total de métodos set que tiene una clase, incluyendo los heredados.|
 |WMC|Métodos Ponderados por Clase.| Mide la complejidad de una clase en términos de la cantidad de métodos que tiene y su complejidad.|
+|WarningBlocker|WarningBlocker|Advertencias críticas que bloquean la compilación o el funcionamiento correcto del código.|
+|WarningCritical|WarningCritical|Advertencias críticas que indican problemas significativos en el código.|
+|WarningInfo|WarningInfo|Advertencias informativas que proporcionan información adicional sobre el código.|
+|WarningMajor|WarningMajor|Advertencias importantes que señalan problemas importantes en el código.|
+|WarningMinor|WarningMinor|Advertencias menores que indican problemas menores o sugerencias de mejora en el código.|
+|Android Rules|Android Rules|Reglas específicas de código para el desarrollo de aplicaciones Android.|
+|Basic Rules|Basic Rules|Reglas básicas de código que cubren prácticas generales y buenas convenciones de programación.|
+|Brace Rules|Brace Rules|Reglas relacionadas con el uso y estilo de las llaves de apertura y cierre en el código.|
+|Clone Implementation Rules|Clone Implementation Rules|Reglas relacionadas con la implementación y uso de la clonación de objetos en el código.|
+|Code Size Rules|Code Size Rules|Reglas relacionadas con el tamaño y complejidad del código fuente.|
+|Comment Rules|Comment Rules|Reglas relacionadas con el uso y estilo de los comentarios en el código.|
+|Controversial Rules|Controversial Rules|Reglas que abordan aspectos del código que pueden generar controversia o tener diferentes enfoques.|
+|Coupling Rules|Coupling Rules|Reglas relacionadas con la dependencia y acoplamiento entre diferentes componentes de código.|
+|Design Rules|Design Rules|Reglas que evalúan aspectos relacionados con el diseño y estructura del código.|
+|Empty Code Rules|Empty Code Rules|Reglas que identifican y abordan fragmentos de código vacíos o sin uso.|
+|Finalizer Rules|Finalizer Rules|Reglas relacionadas con el uso correcto de los métodos finalizadores en el código.|
+|Import Statement Rules|Import Statement Rules|Reglas relacionadas con las declaraciones de importación en el código.|
+|J2EE Rules|J2EE Rules|Reglas específicas para el desarrollo de aplicaciones basadas en la plataforma J2EE (Java 2 Enterprise Edition).|
+|JUnit Rules|JUnit Rules|Reglas relacionadas con las pruebas unitarias utilizando el framework JUnit.|
+|Jakarta Commons Logging Rules|Jakarta Commons Logging Rules|Reglas relacionadas con el uso del framework de logging Jakarta Commons Logging.|
+|Java Logging Rules|Java Logging Rules|Reglas relacionadas con el uso del framework de logging Java Logging.|
+|JavaBean Rules|JavaBean Rules|Reglas relacionadas con la implementación correcta de los JavaBeans en el código.|
+|MigratingToJUnit4 Rules|MigratingToJUnit4 Rules|Reglas relacionadas con la migración y actualización de pruebas unitarias a JUnit 4.|
+|Migration Rules|Migration Rules|Reglas relacionadas con la migración y actualización del código a nuevas versiones o estándares.|
+|Migration13 Rules|Migration13 Rules|Reglas específicas para la migración y actualización del código a Java 1.3.|
+|Migration14 Rules|Migration14 Rules|Reglas específicas para la migración y actualización del código a Java 1.4.|
+|Migration15 Rules|Migration15 Rules|Reglas específicas para la migración y actualización del código a Java 1.5.|
+|Naming Rules|Naming Rules|Reglas relacionadas con la nomenclatura y nombres de variables|
+|Optimization Rules|Optimization Rules|Reglas relacionadas con la optimización del código para mejorar su rendimiento y eficiencia.|
+|Security Code Guideline Rules|Security Code Guideline Rules|Reglas relacionadas con las prácticas de seguridad en el código para prevenir vulnerabilidades y ataques.|
+|Strict Exception Rules|Strict Exception Rules|Reglas relacionadas con el manejo de excepciones de manera rigurosa y correcta en el código.|
+|String and StringBuffer Rules|String and StringBuffer Rules|Reglas relacionadas con el uso adecuado de cadenas de texto (String) y objetos StringBuffer en el código.|
+|Type Resolution Rules|Type Resolution Rules|Reglas relacionadas con la resolución de tipos y la inferencia de tipos en el código.|
+|Unnecessary and Unused Code Rules|Unnecessary and Unused Code Rules|Reglas que identifican y abordan fragmentos de código innecesarios o no utilizados.|
+|Vulnerability Rules|Vulnerability Rules|Reglas que detectan posibles vulnerabilidades de seguridad en el código y ofrecen pautas para solucionarlas.|
+

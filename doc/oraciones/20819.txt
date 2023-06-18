@@ -1,0 +1,8 @@
+[Consulta]:
+Un modelo de predicción entrenado con un gran número de características clasifica la entrada (un método java) en “Buggy” y “Not buggy” indicando si contiene bugs o no.
+La predicción ha sido: |Clasficación|Abreviatura característica 1|Significado característica 1|Valor característica 1|Rango valor característica 1|Abreviatura característica 2|Significado característica 2|Valor característica 2|Rango valor característica 2|Abreviatura característica 3|Significado característica 3|Valor característica 3|Rango valor característica 3|
+|Buggy|TLLOC|Total de líneas de código lógicas.|52|Muy bajo|TLOC|Total de líneas de código.|52|Muy bajo|TNOS|Total de número de declaraciones.|23|Muy bajo|
+Usando el significado de cada una de las características, sus rangos y el valor actual tienes que extraer una explicación del por qué el método analizado por el modelo ha sido clasificado de esa manera. Usa un máximo de 100 palabras.
+
+[Respuesta]:
+El método fue clasificado como "Buggy" debido a que tiene un bajo número de líneas de código lógicas (TLLOC), un bajo total de líneas de código (TLOC) y un bajo número de declaraciones (TNOS). Estas características están asociadas históricamente con la presencia de errores en el código. El modelo de predicción considera que estas características son indicativas de la posible presencia de bugs en el método analizado.
