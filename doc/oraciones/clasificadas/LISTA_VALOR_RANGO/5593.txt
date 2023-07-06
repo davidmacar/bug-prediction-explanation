@@ -1,0 +1,11 @@
+[Consulta]:
+Un modelo de predicción entrenado con un gran número de características clasifica la entrada (un método java) en “Buggy” y “Not buggy” indicando si contiene bugs o no.
+La predicción ha sido: |Clasficación|Abreviatura característica 1|Significado característica 1|Valor característica 1|Rango valor característica 1|Abreviatura característica 2|Significado característica 2|Valor característica 2|Rango valor característica 2|Abreviatura característica 3|Significado característica 3|Valor característica 3|Rango valor característica 3|
+|Buggy|CCL|Clases de Clonado.|3|Muy bajo|CCO|Complejidad de Clonado.|10|Muy bajo|TLLOC|Total de líneas de código lógicas.|49|Muy bajo|
+Usando el significado de cada una de las características, sus rangos y el valor actual tienes que extraer una explicación en formato de párrafo o lista del por qué el método analizado por el modelo ha sido clasificado de esa manera. Usa un máximo de 100 palabras.
+
+[Respuesta]:
+El método Java ha sido clasificado como "Buggy" debido a las siguientes características:
+1. CCL (Clases de Clonado): El valor de 3 indica un nivel muy bajo de clases clonadas, lo cual sugiere que existe una alta probabilidad de errores.
+2. CCO (Complejidad de Clonado): El valor de 10 indica una complejidad de clonado muy baja, lo cual puede implicar una menor calidad del código y mayor presencia de bugs.
+3. TLLOC (Total de líneas de código lógicas): El valor de 49 indica un número de líneas de código lógicas muy bajo, lo cual puede conducir a una mayor concentración de errores.

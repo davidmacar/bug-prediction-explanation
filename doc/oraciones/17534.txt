@@ -1,0 +1,11 @@
+[Consulta]:
+Un modelo de predicción entrenado con un gran número de características clasifica la entrada (un método java) en “Buggy” y “Not buggy” indicando si contiene bugs o no.
+La predicción ha sido: |Clasficación|Abreviatura característica 1|Significado característica 1|Valor característica 1|Rango valor característica 1|Abreviatura característica 2|Significado característica 2|Valor característica 2|Rango valor característica 2|Abreviatura característica 3|Significado característica 3|Valor característica 3|Rango valor característica 3|
+|Not buggy|HNDB|Número de errores entregados de Halstead.|46447|Muy bajo|MIMS|Índice de mantenibilidad (versión de Microsoft).|53129|Muy bajo|NOI|Número de invocaciones salientes.|2|Muy bajo|
+Usando el significado de cada una de las características, sus rangos y el valor actual tienes que extraer una explicación en formato de párrafo o lista del por qué el método analizado por el modelo ha sido clasificado de esa manera. Usa un máximo de 100 palabras.
+
+[Respuesta]:
+El método analizado ha sido clasificado como "Not buggy" debido a las siguientes características:
+1. El número de errores entregados de Halstead es menor a 46447, lo cual es considerado muy bajo.
+2. El índice de mantenibilidad (versión de Microsoft) es igual a 53129, también considerado muy bajo.
+3. El número de invocaciones salientes es igual a 2, lo cual también se considera muy bajo. Estas características indican que el código no contiene errores significativos y es altamente mantenible.

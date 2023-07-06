@@ -1,8 +1,0 @@
-[Consulta]:
-Un modelo de predicción entrenado con un gran número de características clasifica la entrada (un método java) en “Buggy” y “Not buggy” indicando si contiene bugs o no.
-La predicción ha sido: |Clasficación|Abreviatura característica 1|Significado característica 1|Valor característica 1|Rango valor característica 1|Abreviatura característica 2|Significado característica 2|Valor característica 2|Rango valor característica 2|Abreviatura característica 3|Significado característica 3|Valor característica 3|Rango valor característica 3|
-|Buggy|HTRP|Tiempo requerido para programar de Halstead.|898493|Muy alto|MIMS|Índice de mantenibilidad (versión de Microsoft).|63511|Muy bajo|NOI|Número de invocaciones salientes.|2|Muy bajo|
-Usando el significado de cada una de las características, sus rangos y el valor actual tienes que extraer una explicación del por qué el método analizado por el modelo ha sido clasificado de esa manera. Usa un máximo de 100 palabras.
-
-[Respuesta]:
-El método analizado tiene un tiempo requerido para programar muy alto, indicando que es más complicado y probablemente propenso a errores. Además, su índice de mantenibilidad es muy bajo, lo que indica que es difícil de mantener y modificar. Por último, tiene un número muy bajo de invocaciones salientes, lo que sugiere que es un método poco utilizado o con dependencias limitadas. Estas tres características en conjunto pueden indicar la presencia de bugs en el método analizado.

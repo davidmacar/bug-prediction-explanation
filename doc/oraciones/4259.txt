@@ -1,8 +1,0 @@
-[Consulta]:
-Un modelo de predicción entrenado con un gran número de características clasifica la entrada (un método java) en “Buggy” y “Not buggy” indicando si contiene bugs o no.
-La predicción ha sido: |Clasficación|Abreviatura característica 1|Significado característica 1|Valor característica 1|Rango valor característica 1|Abreviatura característica 2|Significado característica 2|Valor característica 2|Rango valor característica 2|Abreviatura característica 3|Significado característica 3|Valor característica 3|Rango valor característica 3|
-|Not buggy|HDIF|Dificultad de Halstead.|945455|Muy alto|NOI|Número de invocaciones salientes.|1|Muy bajo|Design Rules|Design Rules|2|Muy bajo|
-Usando el significado de cada una de las características, sus rangos y el valor actual tienes que extraer una explicación del por qué el método analizado por el modelo ha sido clasificado de esa manera. Usa un máximo de 100 palabras.
-
-[Respuesta]:
-El método ha sido clasificado como "Not buggy" porque tiene una baja dificultad de Halstead (HDIF) y un bajo número de invocaciones salientes (NOI), según los rangos establecidos. Además, cumple con las reglas de diseño (Design Rules). Estas características indican que el código es más simple, con menos complejidad y cumple con las buenas prácticas de diseño.

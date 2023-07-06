@@ -1,0 +1,13 @@
+[Consulta]:
+Un modelo de predicción entrenado con un gran número de características clasifica la entrada (un método java) en “Buggy” y “Not buggy” indicando si contiene bugs o no.
+La predicción ha sido: |Clasficación|Abreviatura característica 1|Significado característica 1|Valor característica 1|Rango valor característica 1|Abreviatura característica 2|Significado característica 2|Valor característica 2|Rango valor característica 2|Abreviatura característica 3|Significado característica 3|Valor característica 3|Rango valor característica 3|
+|Not buggy|MIMS|Índice de mantenibilidad (versión de Microsoft).|694393|Muy alto|NOI|Número de invocaciones salientes.|1|Muy bajo|TLOC|Total de líneas de código.|5|Muy bajo|
+Usando el significado de cada una de las características, sus rangos y el valor actual tienes que extraer una explicación en formato de párrafo o lista del por qué el método analizado por el modelo ha sido clasificado de esa manera. Usa un máximo de 100 palabras.
+
+[Respuesta]:
+El método java en cuestión ha sido clasificado como "Not buggy" debido a las siguientes características:
+1. Su índice de mantenibilidad (MIMS) es de 694393, lo cual se considera muy alto.
+2. El número de invocaciones salientes (NOI) es de 1, lo cual se considera muy bajo.
+3. El total de líneas de código (TLOC) es de 5, también considerado muy bajo.
+
+Estas características indican que el código es altamente mantenible, tiene un bajo número de llamadas a otros métodos y es bastante conciso. Por lo tanto, se estima que el método no contiene bugs.

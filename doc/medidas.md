@@ -19,7 +19,7 @@
 |HNDB|Número de errores entregados de Halstead.| Una medida del número esperado de errores en el código fuente en función de la longitud del programa de Halstead y la dificultad de Halstead.|
 |HPL|Longitud de programa de Halstead.| Una medida de la cantidad de código fuente en términos de la cantidad total de operadores y operandos en el código fuente.|
 |HPV|Vocabulario de programa de Halstead.| Una medida de la cantidad de operadores y operandos distintos en el código fuente.|
-|HTRP|Tiempo requerido para programar de Halstead.| Una medida del tiempo requerido para escribir el código fuente en términos de la longitud del programa de Halstead y la dificultad de Halstead.|
+|HTRP|Tiempo de Halstead requerido para programar.| Una medida del tiempo requerido para escribir el código fuente en términos de la longitud del programa de Halstead y la dificultad de Halstead.|
 |HVOL|Volumen de Halstead.| Una medida del tamaño del programa en términos de la longitud del programa de Halstead y el vocabulario del programa de Halstead.|
 |LCOM5|Falta de Cohesión en Métodos 5.| Mide la cohesión de los métodos dentro de una clase.|
 |LDC|Líneas de Código Duplicado.| Mide la cantidad de líneas de código que son idénticas o muy similares en diferentes partes del programa.|

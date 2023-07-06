@@ -1,0 +1,11 @@
+[Consulta]:
+Un modelo de predicción entrenado con un gran número de características clasifica la entrada (un método java) en “Buggy” y “Not buggy” indicando si contiene bugs o no.
+La predicción ha sido: |Clasficación|Abreviatura característica 1|Significado característica 1|Valor característica 1|Rango valor característica 1|Abreviatura característica 2|Significado característica 2|Valor característica 2|Rango valor característica 2|Abreviatura característica 3|Significado característica 3|Valor característica 3|Rango valor característica 3|
+|Buggy|HPV|Vocabulario de programa de Halstead.|71|Muy bajo|NOI|Número de invocaciones salientes.|14|Muy bajo|TNOS|Total de número de declaraciones.|20|Muy bajo|
+Usando el significado de cada una de las características, sus rangos y el valor actual tienes que extraer una explicación en formato de párrafo o lista del por qué el método analizado por el modelo ha sido clasificado de esa manera. Usa un máximo de 100 palabras.
+
+[Respuesta]:
+El método analizado ha sido clasificado como "Buggy" debido a las siguientes características:
+1. El vocabulario de programa de Halstead es bajo (valor = 71) en comparación con el rango "muy bajo", lo que indica una complejidad de programas baja.
+2. El número de invocaciones salientes es bajo (valor = 14) en comparación con el rango "muy bajo", lo que sugiere que no se están utilizando funciones o métodos relevantes.
+3. El total de número de declaraciones es bajo (valor = 20) en comparación con el rango "muy bajo", lo que indica una falta de estructura y organización en el código.

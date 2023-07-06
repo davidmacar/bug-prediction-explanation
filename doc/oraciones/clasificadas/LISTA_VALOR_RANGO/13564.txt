@@ -1,0 +1,11 @@
+[Consulta]:
+Un modelo de predicción entrenado con un gran número de características clasifica la entrada (un método java) en “Buggy” y “Not buggy” indicando si contiene bugs o no.
+La predicción ha sido: |Clasficación|Abreviatura característica 1|Significado característica 1|Valor característica 1|Rango valor característica 1|Abreviatura característica 2|Significado característica 2|Valor característica 2|Rango valor característica 2|Abreviatura característica 3|Significado característica 3|Valor característica 3|Rango valor característica 3|
+|Buggy|HPL|Longitud de programa de Halstead.|75|Muy bajo|HPV|Vocabulario de programa de Halstead.|39|Muy bajo|JUnit Rules|JUnit Rules|1|Muy bajo|
+Usando el significado de cada una de las características, sus rangos y el valor actual tienes que extraer una explicación en formato de párrafo o lista del por qué el método analizado por el modelo ha sido clasificado de esa manera. Usa un máximo de 100 palabras.
+
+[Respuesta]:
+El método ha sido clasificado como "Buggy" debido a las siguientes características:
+1. La longitud del programa de Halstead es de 75, lo cual es considerado muy bajo, sugiriendo que el método puede ser inconsistente o ineficiente.
+2. El vocabulario de programa de Halstead es de 39, también muy bajo, indicando una falta de diversidad en el uso de los elementos del lenguaje de programación.
+3. Se utiliza una regla de JUnit llamada "JUnit Rules", con un valor de 1, lo cual puede indicar una falta de manejo adecuado de pruebas y validaciones.
