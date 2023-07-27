@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "./env/sSripts/python",
+    "python.analysis.extraPaths": ["app", "another/path/etc"]
+}
